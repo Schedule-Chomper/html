@@ -44,7 +44,7 @@ span.step {
   */
 }
 .topBar{
-	height: 10vw;
+	height: 12vw;
 	z-index: 99;
 	background-color: #FAFAFA;
 }
@@ -94,7 +94,7 @@ span.step {
   text-align: center;
   width: 16vw; 
   font-size: 2em;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 1em;
 /*
   margin-left: 6vw;
