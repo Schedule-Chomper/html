@@ -68,17 +68,24 @@ span.step {
 	/*margin-left: -1em;*/
 }
 .instructional_picture{
+position:relative;
+    float:left;
+    clear:none;
+    overflow:hidden;
+
   background-color: rgba(0,0,0,0);
 
   color: #ffffff;
   display: inline-block;
   font-weight: bold;
-  line-height: 4em;
+
   text-align: center;
   width: 100%;
+  height: 100%;
 
   margin-left: -1em;
   margin-top: 1em;
+  border-top: 1px solid transparent;
   /*
   margin-left: 6.2vw;
   margin-right: 6.2vw;
@@ -231,9 +238,23 @@ span.step {
 }
 
 .thisisclasses {
+  padding-left: 15%;
+  padding-right: 15%;
 	z-index: 99999999;
 	color: black;
-	margin-top: -24em;
+	
 	
 	}
-  
+  .instructional_picture img {
+    position: relative;
+    z-index: 1;
+  }
+  .instructional_picture .thisisclasses{
+    display:block;
+    position:absolute;
+    width:100%;
+    top:50%;
+    left:0;
+    z-index:2;
+    text-align:center;
+  }
